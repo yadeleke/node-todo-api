@@ -31,6 +31,6 @@ MongoClient.connect('mongodb://localhost:27017/', (err, client) => {
     }).then((results) => {
         console.log(JSON.stringify(results, undefined, 2))
     });
-    client.close();
+    // client.close();
 });
 
